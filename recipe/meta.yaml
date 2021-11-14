@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -35,7 +35,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  summary: 'A pure Python driver for IBM Netezza'
   description: |
     nzpy is a pure-Python IBM Netezza driver that complies with DB-API 2.0.
     It is tested on Python versions 3.5+. It is supported with NPS 11.1.2.x
